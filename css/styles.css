@@ -18,7 +18,7 @@ font-weight: 100;
     background-image: url('../images/backgroundstartpage.jpg'); /* Replace 'your-background-image.jpg' with the path to your image */
     background-size: cover;
     background-position: center;
-    color: rgb(0, 0, 0); /* Text color */
+    color: rgb(0, 0, 0);
   }
 
   .overlay {
