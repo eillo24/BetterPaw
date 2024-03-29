@@ -1,4 +1,16 @@
 /*Styles*/
+.backgroundcommunity {
+  background-image: url('../images/backgroundcommunity.png');
+  background-size: cover; 
+  background-position: center; 
+}
+
+.backgroundproflie {
+  background-image: url('../images/backgroundprofile.png');
+  background-size: cover; 
+  background-position: center; 
+}
+
 
 .biloregular { 
 font-family: bilo, sans-serif;
@@ -14,8 +26,8 @@ font-weight: 100;
 
 .background-image-container {
     position: relative;
-    height: 800px; /* Set the height of the container */
-    background-image: url('../images/backgroundstartpage.jpg'); /* Replace 'your-background-image.jpg' with the path to your image */
+    height: 800px; 
+    background-image: url('../images/backgroundstartpage.png'); 
     background-size: cover;
     background-position: center;
     color: rgb(0, 0, 0);
@@ -167,14 +179,15 @@ font-weight: 100;
 }
 
 .sidebar {
-    background-color: #f8f9fa;
-    border-radius: 10px;
+    background-color: #c3e6f0;
+    border-radius: 15px;
+    border-color: #333;
     padding: 15px;
 }
 
 .sidebar h4 {
     margin-bottom: 15px;
-    color:#ab1f1f;
+    color:#E63B7A;
 }
 
 .decorative-line {
@@ -232,16 +245,6 @@ hr {
     }
 }
 
-.bottomline {
-        background-color:#00BD6E;
-        color:#00BD6E;
-        top: none;
-        border: none;
-        height: 12px;
-        margin: 0;
-  }
-
-
 /*Proflie*/
 
   body {
@@ -255,7 +258,7 @@ hr {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
-    background-color: #fff;
+    background-color: #ffffff;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
