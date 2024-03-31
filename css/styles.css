@@ -1,4 +1,22 @@
-/*Styles*/
+.values {
+  font-size: 20px;
+  font-family: bilo, sans-serif;
+  font-style:italic;
+  font-weight: 100;
+}
+
+.btn-custom {
+  background-color: #E63B7A;
+  color: white; 
+  border:rgba(0, 0, 0, 0)
+}
+
+.btn-customsecond {
+  background-color: #e63b7a00;
+  color:#E63B7A; 
+  border-color:#E63B7A;
+}
+
 .backgroundcommunity {
   background-image: url('../images/backgroundcommunity.png');
   background-size: cover; 
@@ -44,9 +62,9 @@ font-weight: 100;
   .content {
     position: absolute;
     top: 50%;
-    left: 10%; /* Adjust as needed */
+    left: 10%; 
     transform: translateY(-50%);
-    z-index: 1; /* Ensure content is above the overlay */
+    z-index: 1; 
   }
 
   .special-paragraph {
@@ -181,7 +199,7 @@ font-weight: 100;
 .sidebar {
     background-color: #c3e6f0;
     border-radius: 15px;
-    border-color: #333;
+    border-color: #33333300;
     padding: 15px;
 }
 
@@ -352,3 +370,19 @@ h2 {
   .upcoming {
     background-color: #fcf8e3;
   }
+
+  .quiz-container {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 50px;
+    background-color: white; /* Set background color to white */
+    width: 80%; /* Set container width */
+    max-width: 600px; /* Set maximum width */
+    margin-left: auto; /* Center container horizontally */
+    margin-right: auto; /* Center container horizontally */
+}
+
+.question {
+    margin-bottom: 20px;
+}
