@@ -235,16 +235,6 @@ font-weight: 100;
     border: none; /* Remove default border */
   }
 
-  .decorative-line-bottom {
-    height: 100px; 
-    background-image: url('../images/pawsbottom.png'); 
-    background-size: cover;
-    background-position: center;
-    margin-top: 20px;
-    margin-bottom: 0; 
-    border: none; 
-  }
-
 hr {
    opacity: 10;
   }
