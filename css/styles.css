@@ -6,6 +6,7 @@
 @media (max-width: 768px) {
   .headings-hero {
       font-size: 40px;
+      color: #E63B7A;
   }
 
   .special-paragraph {
@@ -16,10 +17,11 @@
 @media (max-width: 576px) {
   .headings-hero {
       font-size: 30px;
+      color:#E63B7A
   }
 
   .special-paragraph {
-      font-size: 14px;
+      font-size: 10px;
   }
 }
 
