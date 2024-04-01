@@ -1,3 +1,32 @@
+@media (max-width: 576px) {
+  .carousel-caption h5 {
+      font-size: 10px; /* Adjust font size for smaller screens */
+  }
+
+  .carousel-caption p {
+      font-size: 8px; /* Adjust font size for smaller screens */
+  }
+}
+
+.center-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.highlight{
+ background-color: #e63b7ab3 ;
+ display: inline-block;
+ border-radius: 5px;
+ padding: 2px 5px;
+}
+
 .values {
   font-size: 20px;
   font-family: bilo, sans-serif;
@@ -87,6 +116,8 @@ font-weight: 100;
 
   .special-paragraph {
     max-width: 50%;
+    color: white;
+    font-size: 20px;
   }
 
   .centered {
@@ -405,3 +436,16 @@ h2 {
     margin-bottom: 20px;
 }
 
+@media (max-width: 768px) {
+  .section {
+      padding: 0 20px; /* Adjust padding for smaller screens */
+  }
+
+  .section h3 {
+      font-size: 1.5rem; /* Decrease font size for headings */
+  }
+
+  .section p {
+      font-size: 1rem; /* Decrease font size for paragraphs */
+  }
+}

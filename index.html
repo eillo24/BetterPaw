@@ -44,19 +44,6 @@
           </div>
         </div>
 
-        <script>
-          $(document).ready(function() {
-            // Smooth scrolling when clicking on a link with the hash value "#AboutUs"
-            $('a[href*="#AboutUs"]').on('click', function(e) {
-              e.preventDefault();
-        
-              $('html, body').animate({
-                scrollTop: $($(this).attr('href')).offset().top
-              }, 500, 'linear');
-            });
-          });
-        </script>
-
           <!-- Right-aligned buttons -->
           <div class="d-flex">
             <button class="btn btn-outline-primary me-2 btn-customsecond" style="white-space: nowrap;">Log In</button>
@@ -65,14 +52,27 @@
       </nav>
 <!--End Nav Bar-->
 
+<script>
+  $(document).ready(function() {
+    // Smooth scrolling when clicking on a link with the hash value "#AboutUs"
+    $('a[href*="#AboutUs"]').on('click', function(e) {
+      e.preventDefault();
+
+      $('html, body').animate({
+        scrollTop: $($(this).attr('href')).offset().top
+      }, 500, 'linear');
+    });
+  });
+</script>
+
 <!--Start Page-->
 <div class="background-image-container">
     <div class="overlay">
     <div class="content">
-      <h1 class="headings">BetterPaw</h1>
-      <p class="special-paragraph">Additional Description Here</p>
-      <button class="btn btn-primary me-2 btn-custom" style="display:block; margin-bottom: 10px;">Sign Up</button>
-      <a href="community.html" class="btn btn-secondary btn-customsecond" style="display: block; background-color: rgb(235, 230, 230) !important;">Meet your dog community now!</a>
+      <h1 class="headings" style="color: #E63B7A; font-size: 80px;">BetterPaw</h1>
+      <p class="special-paragraph">A personal dog training schedule for your rescue puppy? We have your back! Join BetterPaw, the website that gives you tailored training for your best friend. You don’t have to stress anymore about not being able to fit traditional schooling into your busy schedule because with BetterPaw you make your own! </p>
+      <button class="btn btn-primary me-2 btn-custom" style="display:block; margin-bottom: 10px; white-space: nowrap;">Sign Up</button>
+      <a href="community.html" class="btn btn-secondary btn-customsecond" style="display: inline-block; background-color: rgb(235, 230, 230) !important; white-space: nowrap !important;">Meet your dog community now!</a>
     </div>
   </div>
 </div>
@@ -83,9 +83,11 @@
     <div class="row">
       <div class="col text-center" id="AboutUs">
         <h3 class="headings" style="font-size: 40px;">About Us</h3>
-        <p class="headings" style="font-size: 20px">Our Vision</p>
-        <p style="font-size: 18px;">In a world where feeling out of control is just another day. We believe that there is strength and pride in asking for help when everything gets too much. And with love and patience, we can learn to overcome our struggles. Only then can we get control to face the world head-on and enjoy the time we spend together. </p>
-        <p class="headings" style="font-size: 20px">Our Values</p>
+        <p style="font-size: 18px; font-weight: bold;">We know that rescuing a pet is an amazing thing, but also a heavy one. Between socializing and supporting your new buddy, on top of finding time to train them, it can be overwhelming. And that’s where BetterPaw comes in. We offer all the techniques and coaching that traditional puppy schools do, without the rigid schedule. BetterPaw strives to make it easier for dog owners to get that training time in. Boosting a loving community of more than 200+ users we make sure you and your dog feel supported throughout your journey. We take care of your time so you can make time. </p>
+        <img src="images/paw.png" width="120" height="120" style=" position: relative;">
+        <p class="headings" style="font-size: 40px">Our Vision</p>
+        <p style="font-size: 18px;">In a world where feeling out of control is just another day.  We believe that there is no shame, but strength and pride in asking for help when everything gets too much. And with a bit of extra love and patience, we can overcome our struggles in time. Only then can we get control to face the world head-on and enjoy the time we spend together.</p>
+        <p class="headings" style="font-size: 40px">Our Values</p>
         <p class="values">Love</p>
         <p style="font-size: 18px;">One of the essential ingredients that you need to make everything come together. The love we give out and the love we receive from those around us helps us face a new date to make a better day. </p>
         <p class="values">Patience</p>
@@ -114,36 +116,46 @@
     <!-- Three headings here -->
 </div>
 
-<!-- Three headings with text and images -->
 <div class="container mt-5">
-    <div class="row">
-      <div class="col-md-4">
-        <h3 class="headings">Behavioural Assesment</h3>
-        <p>Text for Heading 1</p>
+  <div class="row justify-content-center"> <!-- Center the container horizontally -->
+      <div class="col-md-10"> <!-- Adjust the width of the container -->
+          <div class="row">
+              <div class="col-md-4">
+                  <div class="center-text">
+                      <h3 class="headings">Behavioural Assessment</h3>
+                      <p>Step 1: Take the Behavioral Assessment, a multiple-choice test where you tell us everything we need to know about your furry buddy.</p>
+                  </div>
+              </div>
+              <div class="col-md-8">
+                  <img src="images/assesment.png" class="img-fluid" height="500" width="500" alt="Image for Heading 1">
+              </div>
+          </div>
+          <div class="row mt-3">
+              <div class="col-md-4">
+                  <div class="center-text">
+                      <h3 class="headings">Personalized Training Plan</h3>
+                      <p>Step 2: Our program will analyze your answers and give you a day-by-day Personalized Training Plan to follow so you can tackle your challenges.</p>
+                  </div>
+              </div>
+              <div class="col-md-8">
+                  <img src="images/trainingplan.png" class="img-fluid" height="500" width="500" alt="Image for Heading 2">
+              </div>
+          </div>
+          <div class="row mt-3">
+              <div class="col-md-4">
+                  <div class="center-text">
+                      <h3 class="headings">Weekly Check-in</h3>
+                      <p>Step 3: Run into some problems? That’s Okay! You can tell our trained professionals in your Weekly Check-in moments all about it, scheduled when you want it.</p>
+                  </div>
+              </div>
+              <div class="col-md-8">
+                  <img src="images/weeklycheckin.png" class="img-fluid" height="500" width="500" alt="Image for Heading 3">
+              </div>
+          </div>
       </div>
-      <div class="col-md-8">
-        <img src="https://via.placeholder.com/400x200" class="img-fluid" alt="Image for Heading 1">
-      </div>
-    </div>
-    <div class="row mt-3">
-      <div class="col-md-4">
-        <h3 class="headings">Personalized Training Plan</h3>
-        <p>Text for Heading 2</p>
-      </div>
-      <div class="col-md-8">
-        <img src="https://via.placeholder.com/400x200" class="img-fluid" alt="Image for Heading 2">
-      </div>
-    </div>
-    <div class="row mt-3">
-      <div class="col-md-4">
-        <h3 class="headings">Weekly Check-in</h3>
-        <p>Text for Heading 3</p>
-      </div>
-      <div class="col-md-8">
-        <img src="https://via.placeholder.com/400x200" class="img-fluid" alt="Image for Heading 3">
-      </div>
-    </div>
   </div>
+</div>
+
 
 <!-- Background Container -->
 <div class="background-container d-flex align-items-center justify-content-center">
@@ -168,24 +180,31 @@
     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="images/cutedoggo.jpg" class="d-block w-100" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h5 class="headings">First Slide Label</h5>
-            <p>This is the caption for the first slide.</p>
+          <img src="images/testimonial.jpg" class="d-block w-90 img-fluid" alt="testimonial">
+          <div class="carousel-caption">
+            <h5 class="headings highlight highlight">Nora Wilems (25 y/o) & Baas </h5>
+            <p class="highlight">I adopted Baas from Romania 5 months ago. Traditional schooling didn’t work cause Baas was too anxious around so many people. BetterPaw has been a godsend, I can train Baas by myself and I’ve actually noticed a difference. The people on this website have been really supportive by giving me tips and advice. I have a doggy play date planned next week so we’ll see how it goes. </p>
           </div>
         </div>
         <div class="carousel-item">
-          <img src="https://via.placeholder.com/800x400" class="d-block w-100" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h5 class="headings">Second Slide Label</h5>
-            <p>This is the caption for the second slide.</p>
+          <img src="images/testimonialone.jpg" class="d-block w-90 img-fluid" alt="testimonial">
+          <div class="carousel-caption">
+            <h5 class="headings highlight">Sophie Laan (27 y/o) & Luna </h5>
+            <p class="highlight">I’ve been using Better Paw for 3 weeks and it's going well. I had some issues but the coaches really helped me get through them. Luna is thriving and I couldn’t be happier. </p>
           </div>
         </div>
         <div class="carousel-item">
-          <img src="https://via.placeholder.com/800x400" class="d-block w-100" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h5 class="headings">Third Slide Label</h5>
-            <p>This is the caption for the third slide.</p>
+          <img src="images/testimonialtwo.jpg" class="d-block w-90 img-fluid" alt="testimonial">
+          <div class="carousel-caption">
+            <h5 class="headings highlight">Tess Berg (28 y/o) & Bo </h5>
+            <p class="highlight">New to BetterPaw but I really love the community so far. The people here offer great advice and support. Bo is getting better at being around other dogs in public. Me and another member will be meeting for a play date, fingers crossed it goes well. </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/testimonialthree.jpg" class="d-block w-90 img-fluid" alt="testimonial">
+          <div class="carousel-caption">
+            <h5 class="headings highlight">Elanor Akkerman (27 y/o) & Spinach </h5>
+            <p class="highlight">As someone whose working schedule changes every week, BetterPaw has been great. I can train Spinach when I have the time and ask for help when I need it, and compared to other sources it’s pretty cheap too. </p>
           </div>
         </div>
       </div>
