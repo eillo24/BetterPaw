@@ -1,3 +1,36 @@
+.navbar-nav .nav-link.active {
+  color: #E63B7A!important; 
+}
+
+.btn-special { 
+  background-color: #E63B7A !important; 
+  color: white !important; 
+  border:rgba(0, 0, 0, 0) !important;
+}
+
+.btn-special:hover { 
+  background-color: #00BD6E !important; 
+  color: white !important; 
+  border:rgba(0, 0, 0, 0) !important;
+}
+
+.btn-specialsecond {
+  background-color: #e63b7a00 !important;
+  color:#E63B7A !important; 
+  border-color:#E63B7A !important;
+}
+
+.btn-specialsecond:hover {
+  background-color: #e63b7a00 !important;
+  color:#00BD6E !important; 
+  border-color:#00BD6E !important;
+}
+
+.special-paragraph {
+    max-width: 50%;
+    color: white;
+  }
+
 .headings-hero {
   color: #E63B7A;
   font-size: 80px;
@@ -8,30 +41,33 @@
       font-size: 40px;
       color: #E63B7A;
   }
-
-  .special-paragraph {
-      font-size: 16px;
-  }
 }
+
+.special-paragraph {
+      font-size: 20px;
+  }
+
 
 @media (max-width: 576px) {
   .headings-hero {
       font-size: 30px;
       color:#E63B7A
   }
+}
 
+@media (max-width: 576px) {
   .special-paragraph {
-      font-size: 10px;
+      font-size: 16px;
   }
 }
 
 @media (max-width: 576px) {
   .carousel-caption h5 {
-      font-size: 10px; /* Adjust font size for smaller screens */
+      font-size: 10px; 
   }
 
   .carousel-caption p {
-      font-size: 8px; /* Adjust font size for smaller screens */
+      font-size: 8px;
   }
 }
 
@@ -140,13 +176,7 @@ font-weight: 100;
     transform: translateY(-50%);
     z-index: 1; 
   }
-
-  .special-paragraph {
-    max-width: 50%;
-    color: white;
-    font-size: 20px;
-  }
-
+ 
   .centered {
     display: flex;
     align-items: center;
@@ -154,9 +184,9 @@ font-weight: 100;
     height: 100vh;
   }
   .carousel-item img {
-    max-height: 600px; /* Adjust as needed */
+    max-height: 600px; 
     width: auto;
-    margin: auto; /* Center the image horizontally */
+    margin: auto; 
   }
 
   .footer-clean {
@@ -245,30 +275,27 @@ font-weight: 100;
     opacity:0.6;
   }
 
-  /* Styles to control text wrapping */
+
 .container p {
-    /* Control text wrapping for paragraphs inside containers */
     word-wrap: break-word;
 }
 
 .container h2,
 .container h3 {
-    /* Ensure headings don't overflow */
     word-wrap: break-word;
 }
 
 @media (max-width: 767px) {
-    /* Responsive styles for smaller devices */
     .col-md-4,
     .col-md-8 {
-        /* Ensure column content doesn't overflow */
+        
         flex-basis: 100%;
         max-width: 100%;
     }
 }
 
 .heading-container {
-    margin-bottom: 20px; /* Add margin below the heading container */
+    margin-bottom: 20px; 
     padding: 20px;
 }
 
@@ -321,21 +348,21 @@ hr {
   .section p {
     font-size: 30px; 
   }
-  @media (max-width: 576px) { /* Adjust styles for screens smaller than 576px */
+  @media (max-width: 576px) { 
     .background-container {
-        padding: 10px; /* Adjust padding for smaller screens */
+        padding: 10px; 
     }
 
     .section {
-        padding: 10px; /* Adjust padding for smaller screens */
+        padding: 10px; 
     }
 
     .section h3 {
-        font-size: 24px; /* Adjust font size for smaller screens */
+        font-size: 24px; 
     }
 
     .section p {
-        font-size: 16px; /* Adjust font size for smaller screens */
+        font-size: 16px; 
     }
 }
 
@@ -465,14 +492,14 @@ h2 {
 
 @media (max-width: 768px) {
   .section {
-      padding: 0 20px; /* Adjust padding for smaller screens */
+      padding: 0 20px; 
   }
 
   .section h3 {
-      font-size: 1.5rem; /* Decrease font size for headings */
+      font-size: 1.5rem; 
   }
 
   .section p {
-      font-size: 1rem; /* Decrease font size for paragraphs */
+      font-size: 1rem; 
   }
 }
