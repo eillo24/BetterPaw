@@ -122,7 +122,7 @@
 }
 
 .backgroundcommunity {
-  background-image: url('../images/test.png');
+  background-image: url('../images/betterpawprofliebackground.png');
   background-size: cover; 
   background-position: center; 
 }
@@ -313,7 +313,7 @@ font-weight: 100;
 
 .decorative-line {
     height: 250px; 
-    background-image: url('../images/paws.png'); 
+    background-image: url('../images/betterpawtrailpaws.png'); 
     background-size: cover;
     background-position: center;
     margin-top: 50px; /* Adjust spacing as needed */
@@ -325,7 +325,7 @@ hr {
   }
 
   .background-container {
-    background-image: url('../images/backgroundend.png'); 
+    background-image: url('../images/betterpawcommunitybackground.png'); 
     background-size: cover;
     background-position: center;
     padding: 30px; 
